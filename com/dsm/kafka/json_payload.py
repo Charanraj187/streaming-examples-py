@@ -47,6 +47,10 @@ if __name__ == '__main__':
     # Input stream json
     # {"firstName": "Quentin", "lastName": "Corkery", "birthDate": "1984-10-26T03:52:14.449+0000"}
     # {"firstName": "Neil", "lastName": "Macejkovic", "birthDate": "1971-08-06T18:03:11.533+0000"}
+    ## {"firstName": "charan", "lastName": "raj", "birthDate": "1973-08-06T20:30:11.533+0000"}
+    # {"firstName": "rajesh", "lastName": "Mass", "birthDate": "1976-08-06T18:03:11.533+0000"}
+    # {"firstName": "kiran", "lastName": "kovic", "birthDate": "1978-09-06T20:03:11.533+0000"}
+    # {"firstName": "manju", "lastName": "Macej", "birthDate": "1979-012-06T40:30:11.533+0000"}
 
     person_schema = StructType([
         StructField("firstName", StringType(), True),
