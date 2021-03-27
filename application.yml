@@ -5,11 +5,7 @@ files:
     directory: droplocation
 
 kafka:
-  topic: test
-  checkpoint_dir: chk_pnt
-  json_checkpoint_dir: json_chk_pnt
-
-kafka:
   topic: test_json
   checkpoint_dir: chk_pnt
   json_checkpoint_dir: json_chk_pnt
+
